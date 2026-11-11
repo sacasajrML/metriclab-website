@@ -1,0 +1,651 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MetricLab · Consultoría de datos y automatización</title>
+<meta name="description" content="Conectamos la información dispersa de tu empresa en un solo centro de control. Datos ordenados, reportes automáticos y mejores decisiones, sin cambiar cómo trabaja tu equipo.">
+<link rel="canonical" href="https://metriclab.tech/">
+<meta name="theme-color" content="#0F2D51">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_LA">
+<meta property="og:site_name" content="MetricLab">
+<meta property="og:title" content="MetricLab · Consultoría de datos y automatización">
+<meta property="og:description" content="Conectamos la información dispersa de tu empresa en un solo centro de control. Datos ordenados, reportes automáticos y mejores decisiones, sin cambiar cómo trabaja tu equipo.">
+<meta property="og:url" content="https://metriclab.tech/">
+<meta property="og:image" content="https://metriclab.tech/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Montserrat:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="/assets/styles.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ProfessionalService", "name": "MetricLab", "url": "https://metriclab.tech", "logo": "https://metriclab.tech/icon-192.png", "image": "https://metriclab.tech/assets/og-image.png", "slogan": "De Datos a Decisiones", "description": "Consultoría de datos y automatización. Conectamos la información dispersa de tu empresa en un solo centro de control para tomar mejores decisiones.", "email": "alvaro.jr@metriclab.tech", "telephone": "+504 9469-4270", "areaServed": "Latinoamérica", "founder": [{"@type": "Person", "name": "Álvaro Sacasa Jr."}, {"@type": "Person", "name": "Álvaro Sacasa Sr."}], "knowsAbout": ["Automatización de procesos", "Bases de datos", "Dashboards", "Inteligencia de negocios", "Análisis de datos"]}</script>
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<div style="width: 100%; font-family: 'DM Sans', sans-serif; color: #0F2D51; background: #FDFDFD">
+
+<header style="position: relative; overflow: hidden; background: #0F2D51; color: #FDFDFD">
+<svg class="drift" aria-hidden="true" viewBox="0 0 1440 760" preserveAspectRatio="xMidYMid slice" style="position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none">
+<g stroke="#6FB3E0" stroke-opacity="0.12" stroke-width="1" fill="none">
+<path d="M60 120 L240 210 L410 140 L560 260"></path>
+<path d="M90 560 L260 470 L430 600 L620 520"></path>
+<path d="M1180 90 L1300 180 L1400 120"></path>
+<path d="M1100 660 L1240 590 L1390 690"></path>
+<path d="M240 210 L260 470"></path>
+</g>
+<g fill="#6FB3E0">
+<circle class="tw" cx="60" cy="120" r="2.5"></circle>
+<circle class="tw2" cx="240" cy="210" r="3"></circle>
+<circle class="tw3" cx="410" cy="140" r="2.5"></circle>
+<circle class="tw" cx="560" cy="260" r="2"></circle>
+<circle class="tw2" cx="90" cy="560" r="2.5"></circle>
+<circle class="tw3" cx="260" cy="470" r="3"></circle>
+<circle class="tw" cx="430" cy="600" r="2.5"></circle>
+<circle class="tw2" cx="620" cy="520" r="2"></circle>
+<circle class="tw3" cx="1180" cy="90" r="2.5"></circle>
+<circle class="tw" cx="1300" cy="180" r="3"></circle>
+<circle class="tw2" cx="1400" cy="120" r="2"></circle>
+<circle class="tw3" cx="1100" cy="660" r="2.5"></circle>
+<circle class="tw" cx="1240" cy="590" r="3"></circle>
+<circle class="tw2" cx="1390" cy="690" r="2"></circle>
+</g>
+</svg>
+
+<nav class="wrap" aria-label="Principal" style="position: relative; display: flex; align-items: center; justify-content: space-between; gap: 24px; padding-top: 22px; padding-bottom: 22px">
+<a href="/" aria-label="MetricLab, inicio" style="display: flex; align-items: center; gap: 12px; text-decoration: none">
+<img src="/assets/metriclab-m-light.png" alt="" style="width: 36px; height: 37px; object-fit: contain">
+<span style="font-family: Montserrat, sans-serif; font-weight: 700; font-size: 20px; letter-spacing: 1px; color: #FDFDFD">METRIC<span style="color: #6FB3E0; font-weight: 400">LAB</span></span>
+</a>
+<div style="display: flex; align-items: center; gap: 32px">
+<div class="navlinks" style="display: flex; align-items: center; gap: 28px">
+<a class="navlink" href="#que-hacemos">Qué hacemos</a>
+<a class="navlink" href="#como-trabajamos">Cómo trabajamos</a>
+<a class="navlink" href="#nosotros">Nosotros</a>
+<a class="navlink" href="/contacto/">Contacto</a>
+</div>
+<a class="btn" href="/contacto/" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 20px; border-radius: 8px; background: #2B7AA8; color: #FFFFFF; text-decoration: none; font-family: Montserrat, sans-serif; font-weight: 600; font-size: 14px; box-sizing: border-box">Agenda un diagnóstico</a>
+</div>
+</nav>
+
+<div id="inicio" class="wrap" style="position: relative; display: flex; flex-wrap: wrap; align-items: center; gap: 56px; padding-top: 56px; padding-bottom: 104px">
+<div style="flex: 1 1 460px; min-width: 0; display: flex; flex-direction: column; gap: 24px">
+<p style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 600; font-size: 13px; letter-spacing: 2.5px; color: #6FB3E0">DE DATOS A DECISIONES</p>
+<h1 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 700; font-size: clamp(36px, 4.6vw, 58px); line-height: 1.1; letter-spacing: -0.5px; color: #FDFDFD">Tus datos ya existen. Nosotros los convertimos en decisiones.</h1>
+<p style="margin: 0; font-size: 19px; line-height: 1.6; color: #C3CAD5; max-width: 560px">Tu información vive repartida en hojas, formularios, papel y sistemas que no se hablan entre sí. Construimos los puentes que la unen en un solo centro de control, <span style="color: #FDFDFD; font-weight: 500">sin cambiar cómo trabaja tu equipo.</span></p>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 24px; margin-top: 8px">
+<a class="btn" href="/contacto/" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 28px; border-radius: 8px; background: #2B7AA8; color: #FFFFFF; text-decoration: none; font-family: Montserrat, sans-serif; font-weight: 600; font-size: 16px; box-sizing: border-box">Agenda un diagnóstico gratuito</a>
+<a class="ghost" href="#como-trabajamos" style="color: #6FB3E0; text-decoration: none; font-family: Montserrat, sans-serif; font-weight: 600; font-size: 15px">Ver cómo trabajamos →</a>
+</div>
+</div>
+
+<div style="flex: 1 1 520px; min-width: 0; display: flex; justify-content: center">
+<div class="viz" role="img" aria-label="Archivos y sistemas sueltos conectándose a un centro de control" style="position: relative; width: 560px; height: 440px; flex: none">
+<svg aria-hidden="true" width="560" height="440" viewBox="0 0 560 440" style="position: absolute; left: 0; top: 0">
+<g fill="none" stroke="#6FB3E0" stroke-opacity="0.55" stroke-width="1.5">
+<path class="flow" d="M176 58 C 260 58, 260 220, 330 220"></path>
+<path class="flow" d="M200 162 C 270 162, 270 220, 330 220"></path>
+<path class="flow" d="M184 266 C 265 266, 265 220, 330 220"></path>
+<path class="flow" d="M206 370 C 275 370, 275 220, 330 220"></path>
+</g>
+</svg>
+<div class="traveler t1"></div>
+<div class="traveler t2"></div>
+<div class="traveler t3"></div>
+<div class="traveler t4"></div>
+
+<div class="float1" style="position: absolute; left: 0; top: 24px; width: 176px; height: 68px; box-sizing: border-box; padding: 12px 14px; display: flex; align-items: center; gap: 12px; background: rgba(253,253,253,0.06); border: 1px solid rgba(161,169,183,0.35); border-radius: 10px">
+<div style="width: 36px; height: 36px; flex: none; border-radius: 8px; background: #1F7A4D; display: flex; align-items: center; justify-content: center">
+<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FDFDFD" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"></rect><path d="M3 9h18M3 15h18M9 3v18"></path></svg>
+</div>
+<div style="display: flex; flex-direction: column; gap: 2px; min-width: 0">
+<span style="font-family: Montserrat, sans-serif; font-weight: 600; font-size: 13px; color: #FDFDFD">Ventas.xlsx</span>
+<span style="font-size: 11px; color: #A1A9B7">Hoja de cálculo</span>
+</div>
+</div>
+
+<div class="float2" style="position: absolute; left: 24px; top: 128px; width: 176px; height: 68px; box-sizing: border-box; padding: 12px 14px; display: flex; align-items: center; gap: 12px; background: rgba(253,253,253,0.06); border: 1px solid rgba(161,169,183,0.35); border-radius: 10px">
+<div style="width: 36px; height: 36px; flex: none; border-radius: 8px; background: #1F7A4D; display: flex; align-items: center; justify-content: center">
+<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FDFDFD" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"></rect><path d="M3 9h18M3 15h18M9 3v18"></path></svg>
+</div>
+<div style="display: flex; flex-direction: column; gap: 2px; min-width: 0">
+<span style="font-family: Montserrat, sans-serif; font-weight: 600; font-size: 13px; color: #FDFDFD">Inventario.xlsx</span>
+<span style="font-size: 11px; color: #A1A9B7">Otra hoja de cálculo</span>
+</div>
+</div>
+
+<div class="float3" style="position: absolute; left: 8px; top: 232px; width: 176px; height: 68px; box-sizing: border-box; padding: 12px 14px; display: flex; align-items: center; gap: 12px; background: rgba(253,253,253,0.06); border: 1px solid rgba(161,169,183,0.35); border-radius: 10px">
+<div style="width: 36px; height: 36px; flex: none; border-radius: 8px; background: #2A678C; display: flex; align-items: center; justify-content: center">
+<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FDFDFD" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5M9 13h6M9 17h4"></path></svg>
+</div>
+<div style="display: flex; flex-direction: column; gap: 2px; min-width: 0">
+<span style="font-family: Montserrat, sans-serif; font-weight: 600; font-size: 13px; color: #FDFDFD">Planilla</span>
+<span style="font-size: 11px; color: #A1A9B7">En papel</span>
+</div>
+</div>
+
+<div class="float4" style="position: absolute; left: 30px; top: 336px; width: 176px; height: 68px; box-sizing: border-box; padding: 12px 14px; display: flex; align-items: center; gap: 12px; background: rgba(253,253,253,0.06); border: 1px solid rgba(161,169,183,0.35); border-radius: 10px">
+<div style="width: 36px; height: 36px; flex: none; border-radius: 8px; background: #6A3FB5; display: flex; align-items: center; justify-content: center">
+<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FDFDFD" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1"></circle><circle cx="8.5" cy="12.5" r="1"></circle><circle cx="8.5" cy="16.5" r="1"></circle><path d="M11.5 8.5h4.5M11.5 12.5h4.5M11.5 16.5h3"></path></svg>
+</div>
+<div style="display: flex; flex-direction: column; gap: 2px; min-width: 0">
+<span style="font-family: Montserrat, sans-serif; font-weight: 600; font-size: 13px; color: #FDFDFD">Google Forms</span>
+<span style="font-size: 11px; color: #A1A9B7">Respuestas sueltas</span>
+</div>
+</div>
+
+<div class="hub" style="position: absolute; left: 324px; top: 214px; width: 12px; height: 12px; border-radius: 50%; background: #6FB3E0"></div>
+
+<div style="position: absolute; left: 342px; top: 70px; width: 218px; height: 300px; box-sizing: border-box; padding: 18px; display: flex; flex-direction: column; gap: 14px; background: #FDFDFD; border-radius: 12px; color: #0F2D51">
+<div style="display: flex; align-items: center; justify-content: space-between">
+<span style="font-family: Montserrat, sans-serif; font-weight: 700; font-size: 13px">Centro de Control</span>
+<span style="display: flex; align-items: center; gap: 6px; font-size: 11px; color: #2A678C"><span style="width: 7px; height: 7px; border-radius: 50%; background: #2B7AA8"></span>En vivo</span>
+</div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px">
+<div style="padding: 10px; border: 1px solid #E1E4EA; border-radius: 8px; display: flex; flex-direction: column; gap: 2px">
+<span style="font-size: 10px; color: #5A6475">Ventas</span>
+<span style="font-family: Montserrat, sans-serif; font-weight: 700; font-size: 16px">+12%</span>
+</div>
+<div style="padding: 10px; border: 1px solid #E1E4EA; border-radius: 8px; display: flex; flex-direction: column; gap: 2px">
+<span style="font-size: 10px; color: #5A6475">Pendientes</span>
+<span style="font-family: Montserrat, sans-serif; font-weight: 700; font-size: 16px">8</span>
+</div>
+</div>
+<div style="flex: 1; display: flex; align-items: flex-end; gap: 8px; padding: 10px; border: 1px solid #E1E4EA; border-radius: 8px">
+<div class="bar" style="flex: 1; height: 42%; background: #A8CCDF; border-radius: 3px 3px 0 0"></div>
+<div class="bar" style="flex: 1; height: 58%; background: #A8CCDF; border-radius: 3px 3px 0 0; animation-delay: .4s"></div>
+<div class="bar" style="flex: 1; height: 50%; background: #A8CCDF; border-radius: 3px 3px 0 0; animation-delay: .8s"></div>
+<div class="bar" style="flex: 1; height: 72%; background: #6FB3E0; border-radius: 3px 3px 0 0; animation-delay: 1.2s"></div>
+<div class="bar" style="flex: 1; height: 66%; background: #6FB3E0; border-radius: 3px 3px 0 0; animation-delay: 1.6s"></div>
+<div class="bar" style="flex: 1; height: 88%; background: #2B7AA8; border-radius: 3px 3px 0 0; animation-delay: 2s"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<main id="contenido">
+
+<section id="problema" style="padding: 112px 0; background: #FDFDFD">
+<div class="wrap" style="display: flex; flex-direction: column; gap: 48px">
+<div style="display: flex; flex-direction: column; gap: 18px; max-width: 780px">
+<p style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 600; font-size: 13px; letter-spacing: 2.5px; color: #2A678C">EL PROBLEMA</p>
+<h2 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 700; font-size: clamp(30px, 3.4vw, 42px); line-height: 1.18; color: #0F2D51">¿De qué sirve automatizar si no ves lo que está pasando?</h2>
+<p style="margin: 0; font-size: 19px; line-height: 1.65; color: #3B4556">Tu empresa ya genera datos todos los días, pero cada área los guarda <mark class="bad">en su propio silo</mark>. Automatizar sin conectarlos solo produce <mark class="bad">más datos que nadie ve</mark>.</p>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 20px">
+
+<div style="padding: 28px 32px 32px; background: #FDF6F3; border: 1px solid #F5C4B3; border-radius: 14px; display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px">
+<h3 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 600; font-size: 19px; color: #0F2D51">Solo automatizar</h3>
+<span style="font-family: Montserrat, sans-serif; font-weight: 600; font-size: 15px; color: #9A4A30">Más rápido, igual de ciego</span>
+</div>
+<div class="flowrow">
+<div class="track" aria-hidden="true" style="border-top: 1.5px dashed #D9B8AC"></div>
+<div class="trav trav-bad" aria-hidden="true"></div>
+<div class="node">
+<div style="width: 62px; height: 62px; flex: none; border-radius: 14px; background: #FDFDFD; border: 1px solid #E8CFC6; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#5A6475" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="4" width="14" height="17" rx="2"></rect><path d="M9 4V3h6v1M9 10h6M9 14h4"></path></svg></div>
+<span style="font-size: 15px; font-weight: 500; color: #3B4556">Proceso manual</span>
+</div>
+<div class="node">
+<div style="width: 62px; height: 62px; flex: none; border-radius: 14px; background: #FDFDFD; border: 1px solid #E8CFC6; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#5A6475" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"></path></svg></div>
+<span style="font-size: 15px; font-weight: 500; color: #3B4556">Se automatiza</span>
+</div>
+<div class="node">
+<div style="position: relative; width: 62px; height: 62px; flex: none">
+<div style="position: absolute; left: 4px; top: 8px; width: 34px; height: 42px; border-radius: 5px; background: #FDFDFD; border: 1px solid #E8CFC6; transform: rotate(-14deg)"></div>
+<div style="position: absolute; left: 22px; top: 2px; width: 34px; height: 42px; border-radius: 5px; background: #FDFDFD; border: 1px solid #E8CFC6; transform: rotate(10deg)"></div>
+<div style="position: absolute; left: 13px; top: 16px; width: 34px; height: 42px; border-radius: 5px; background: #F5C4B3; border: 1px solid #E0A893"></div>
+</div>
+<span style="font-size: 15px; font-weight: 500; color: #3B4556">Más archivos sueltos</span>
+</div>
+<div class="node">
+<div style="width: 62px; height: 62px; flex: none; border-radius: 50%; background: #F5C4B3; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#9A4A30" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3l18 18"></path><path d="M10.6 5.1A10 10 0 0 1 12 5c5 0 9 4.5 10 7a13 13 0 0 1-3 4.1M6.6 6.6A13 13 0 0 0 2 12c1 2.5 5 7 10 7a9.6 9.6 0 0 0 4.4-1"></path><path d="M9.9 9.9a3 3 0 0 0 4.2 4.2"></path></svg></div>
+<span style="font-size: 15px; font-weight: 600; color: #9A4A30">Sin visibilidad</span>
+</div>
+</div>
+</div>
+
+<div style="padding: 28px 32px 32px; background: #EEF5FA; border: 1px solid #A8CCDF; border-radius: 14px; display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px">
+<h3 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 600; font-size: 19px; color: #0F2D51">Automatizar y conectar · MetricLab</h3>
+<span style="font-family: Montserrat, sans-serif; font-weight: 600; font-size: 15px; color: #2A678C">Cada dato llega a una decisión</span>
+</div>
+<div class="flowrow">
+<div class="track" aria-hidden="true" style="border-top: 1.5px solid #6FB3E0"></div>
+<div class="trav trav-ok" aria-hidden="true"></div>
+<div class="node">
+<div style="width: 62px; height: 62px; flex: none; border-radius: 14px; background: #FDFDFD; border: 1px solid #A8CCDF; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#2A678C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="4" width="14" height="17" rx="2"></rect><path d="M9 4V3h6v1M9 10h6M9 14h4"></path></svg></div>
+<span style="font-size: 15px; font-weight: 500; color: #0F2D51">Proceso</span>
+</div>
+<div class="node">
+<div style="width: 62px; height: 62px; flex: none; border-radius: 14px; background: #FDFDFD; border: 1px solid #A8CCDF; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#2A678C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"></path></svg></div>
+<span style="font-size: 15px; font-weight: 500; color: #0F2D51">Automatización</span>
+</div>
+<div class="node">
+<div style="width: 62px; height: 62px; flex: none; border-radius: 14px; background: #FDFDFD; border: 1px solid #A8CCDF; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#2A678C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5.5" rx="7" ry="2.5"></ellipse><path d="M5 5.5v13c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5v-13"></path><path d="M5 12c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5"></path></svg></div>
+<span style="font-size: 15px; font-weight: 500; color: #0F2D51">Datos conectados</span>
+</div>
+<div class="node">
+<div style="width: 62px; height: 62px; flex: none; border-radius: 14px; background: #FDFDFD; border: 1px solid #A8CCDF; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#2A678C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="14" rx="2"></rect><path d="M7 14v-3M11 14V9M15 14v-5M8 21h8"></path></svg></div>
+<span style="font-size: 15px; font-weight: 500; color: #0F2D51">Centro de Control</span>
+</div>
+<div class="node">
+<div style="width: 62px; height: 62px; flex: none; border-radius: 50%; background: #2B7AA8; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#FDFDFD" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"></circle><circle cx="12" cy="12" r="4.5"></circle><circle cx="12" cy="12" r="1"></circle></svg></div>
+<span style="font-size: 15px; font-weight: 600; color: #2A678C">Decisión</span>
+</div>
+</div>
+</div>
+
+</div>
+
+<div style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 10px; padding-top: 8px">
+<p style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 600; font-size: clamp(22px, 2.4vw, 30px); line-height: 1.35; color: #0F2D51; max-width: 820px">Para nosotros, automatizar es el medio. <mark>La visibilidad es el producto.</mark></p>
+</div>
+</div>
+</section>
+
+<section id="que-hacemos" style="padding: 112px 0; background: #EFEFEF">
+<div class="wrap" style="display: flex; flex-direction: column; gap: 56px">
+<div style="display: flex; flex-direction: column; gap: 18px; max-width: 720px">
+<p style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 600; font-size: 13px; letter-spacing: 2.5px; color: #2A678C">QUÉ HACEMOS</p>
+<h2 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 700; font-size: clamp(30px, 3.4vw, 42px); line-height: 1.18; color: #0F2D51">Construimos los puentes entre tus datos</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.65; color: #5A6475">Cuatro pasos para pasar de información dispersa a decisiones con respaldo.</p>
+</div>
+
+<div style="position: relative">
+<div class="stepline" aria-hidden="true" style="position: absolute; left: 16%; right: 16%; top: 57px; border-top: 1px dashed #A1A9B7"></div>
+<ol class="steps3" style="position: relative; margin: 0; padding: 0; list-style: none">
+
+<li class="step" style="padding: 28px; background: #FDFDFD; border: 1px solid #DCDFE5; border-radius: 12px; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; align-items: center; justify-content: space-between">
+<div class="stepicon" style="width: 56px; height: 56px; border-radius: 12px; background: #2A678C; display: flex; align-items: center; justify-content: center; transition: background-color .25s ease">
+<svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FDFDFD" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v12H5.2L4 17.5z"></path><path d="M8 9h8M8 12h5"></path></svg>
+</div>
+<span style="font-family: Montserrat, sans-serif; font-weight: 700; font-size: 14px; color: #5A6475">01</span>
+</div>
+<h3 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 600; font-size: 21px; color: #0F2D51">Capturar</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #5A6475">Formularios, mensajes o los sistemas que ya usas. Automatizamos el trabajo repetitivo y eliminamos el error humano.</p>
+<div class="mini" aria-hidden="true" style="display: flex; align-items: center; gap: 16px; padding: 0 18px">
+<div style="flex: 1; display: flex; flex-direction: column; gap: 9px">
+<div style="height: 10px; border-radius: 5px; background: #E1E4EA; overflow: hidden"><div class="f1" style="height: 100%; background: #6FB3E0; border-radius: 5px"></div></div>
+<div style="height: 10px; border-radius: 5px; background: #E1E4EA; overflow: hidden"><div class="f2" style="height: 100%; background: #6FB3E0; border-radius: 5px"></div></div>
+<div style="height: 10px; border-radius: 5px; background: #E1E4EA; overflow: hidden"><div class="f3" style="height: 100%; background: #6FB3E0; border-radius: 5px"></div></div>
+</div>
+<div class="pop" style="width: 34px; height: 34px; flex: none; border-radius: 50%; background: #2B7AA8; display: flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FDFDFD" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></div>
+</div>
+</li>
+
+<li class="step" style="padding: 28px; background: #FDFDFD; border: 1px solid #DCDFE5; border-radius: 12px; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; align-items: center; justify-content: space-between">
+<div class="stepicon" style="width: 56px; height: 56px; border-radius: 12px; background: #2A678C; display: flex; align-items: center; justify-content: center; transition: background-color .25s ease">
+<svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FDFDFD" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5.5" rx="7" ry="2.5"></ellipse><path d="M5 5.5v13c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5v-13"></path><path d="M5 12c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5"></path></svg>
+</div>
+<span style="font-family: Montserrat, sans-serif; font-weight: 700; font-size: 14px; color: #5A6475">02</span>
+</div>
+<h3 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 600; font-size: 21px; color: #0F2D51">Unificar</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #5A6475">Conectamos tus hojas, áreas y sistemas en una base de datos <mark>ordenada y limpia</mark>. Una sola fuente de verdad.</p>
+<div class="mini" aria-hidden="true" style="display: flex; align-items: center; justify-content: center">
+<div style="position: relative; width: 92px; height: 52px">
+<span class="u1" style="position: absolute; left: 0; top: 0; width: 26px; height: 22px; border-radius: 4px; background: #A8CCDF"></span>
+<span class="u2" style="position: absolute; left: 33px; top: 0; width: 26px; height: 22px; border-radius: 4px; background: #6FB3E0"></span>
+<span class="u3" style="position: absolute; left: 66px; top: 0; width: 26px; height: 22px; border-radius: 4px; background: #2B7AA8"></span>
+<span class="u4" style="position: absolute; left: 0; top: 30px; width: 26px; height: 22px; border-radius: 4px; background: #6FB3E0"></span>
+<span class="u5" style="position: absolute; left: 33px; top: 30px; width: 26px; height: 22px; border-radius: 4px; background: #2B7AA8"></span>
+<span class="u6" style="position: absolute; left: 66px; top: 30px; width: 26px; height: 22px; border-radius: 4px; background: #A8CCDF"></span>
+</div>
+</div>
+</li>
+
+<li class="step" style="background: #FDFDFD; border: 1px solid #DCDFE5; border-radius: 12px">
+<a class="steplink" href="#resultado" style="padding: 28px; box-sizing: border-box">
+<div style="display: flex; align-items: center; justify-content: space-between">
+<div class="stepicon" style="width: 56px; height: 56px; border-radius: 12px; background: #2A678C; display: flex; align-items: center; justify-content: center; transition: background-color .25s ease">
+<svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FDFDFD" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="14" rx="2"></rect><path d="M7 14v-3M11 14V9M15 14v-5M8 21h8"></path></svg>
+</div>
+<span style="font-family: Montserrat, sans-serif; font-weight: 700; font-size: 14px; color: #5A6475">03</span>
+</div>
+<h3 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 600; font-size: 21px; color: #0F2D51">Visualizar</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #5A6475">Un Centro de Control con tus indicadores clave, siempre actualizado y en cualquier dispositivo.</p>
+<div class="mini" aria-hidden="true" style="display: flex; align-items: flex-end; gap: 8px; padding: 16px 22px 0">
+<div class="g" style="flex: 1; height: 38%; background: #A8CCDF; border-radius: 3px 3px 0 0"></div>
+<div class="g" style="flex: 1; height: 56%; background: #A8CCDF; border-radius: 3px 3px 0 0; animation-delay: .15s"></div>
+<div class="g" style="flex: 1; height: 48%; background: #6FB3E0; border-radius: 3px 3px 0 0; animation-delay: .3s"></div>
+<div class="g" style="flex: 1; height: 72%; background: #6FB3E0; border-radius: 3px 3px 0 0; animation-delay: .45s"></div>
+<div class="g" style="flex: 1; height: 90%; background: #2B7AA8; border-radius: 3px 3px 0 0; animation-delay: .6s"></div>
+</div>
+<span style="font-family: Montserrat, sans-serif; font-weight: 600; font-size: 14px; color: #2A678C">Ver un ejemplo ↓</span>
+</a>
+</li>
+
+<li class="step" style="grid-column: 1 / -1; padding: 32px; background: #FDFDFD; border: 1px solid #DCDFE5; border-radius: 12px">
+<div class="decide">
+<div style="flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; align-items: center; gap: 16px">
+<div class="stepicon" style="width: 56px; height: 56px; flex: none; border-radius: 12px; background: #2A678C; display: flex; align-items: center; justify-content: center; transition: background-color .25s ease">
+<svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FDFDFD" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"></circle><circle cx="12" cy="12" r="4.5"></circle><circle cx="12" cy="12" r="1"></circle></svg>
+</div>
+<span style="font-family: Montserrat, sans-serif; font-weight: 700; font-size: 14px; color: #5A6475">04 · EL OBJETIVO</span>
+</div>
+<h3 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 600; font-size: 26px; line-height: 1.25; color: #0F2D51">Decidir: tomar mejores decisiones se vuelve más fácil</h3>
+<p style="margin: 0; font-size: 17px; line-height: 1.65; color: #5A6475">Con la información ordenada y a la vista, decidir deja de ser una corazonada. Te avisamos cuando algo se sale de lo normal y te mostramos <mark>dónde actuar y por qué</mark>.</p>
+</div>
+<div aria-hidden="true" style="flex: 1 1 0; min-width: 0; padding: 20px; border-radius: 12px; background: #F4F6F8; display: flex; flex-direction: column; gap: 10px">
+<div class="in1" style="display: flex; align-items: center; gap: 12px; padding: 12px 14px; background: #FDFDFD; border: 1px solid #DCDFE5; border-radius: 10px">
+<span style="width: 32px; height: 32px; flex: none; border-radius: 8px; background: #F5C4B3; display: flex; align-items: center; justify-content: center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#9A4A30" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"></path><path d="M10.3 21a1.9 1.9 0 0 0 3.4 0"></path></svg></span>
+<span style="display: flex; flex-direction: column; gap: 2px; min-width: 0"><span style="font-size: 13px; font-weight: 500; color: #0F2D51">Inventario bajo en Sucursal Norte</span><span style="font-size: 12px; color: #5A6475">Quedan 6 días de producto</span></span>
+</div>
+<div class="in2" style="display: flex; align-items: center; gap: 12px; padding: 12px 14px; background: #FDFDFD; border: 1px solid #DCDFE5; border-radius: 10px">
+<span style="width: 32px; height: 32px; flex: none; border-radius: 8px; background: #C9DDEA; display: flex; align-items: center; justify-content: center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2A678C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"></path><path d="M15 7h6v6"></path></svg></span>
+<span style="display: flex; flex-direction: column; gap: 2px; min-width: 0"><span style="font-size: 13px; font-weight: 500; color: #0F2D51">Ese producto vende 20% más este mes</span><span style="font-size: 12px; color: #5A6475">Comparado con el mes anterior</span></span>
+</div>
+<div class="in3" style="display: flex; align-items: center; gap: 12px; padding: 12px 14px; background: #2B7AA8; border-radius: 10px">
+<span style="width: 32px; height: 32px; flex: none; border-radius: 8px; background: rgba(253,253,253,0.2); display: flex; align-items: center; justify-content: center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span>
+<span style="display: flex; flex-direction: column; gap: 2px; min-width: 0"><span style="font-size: 13px; font-weight: 600; color: #FFFFFF">Decisión: reponer hoy y subir el pedido</span><span style="font-size: 12px; color: #E3EEF5">Con datos, no con corazonadas</span></span>
+</div>
+</div>
+</div>
+</li>
+
+</ol>
+</div>
+</div>
+</section>
+
+<section id="resultado" style="padding: 112px 0; background: #FDFDFD">
+<div class="wrap" style="display: flex; flex-wrap: wrap; align-items: center; gap: 64px">
+<div style="flex: 1 1 380px; min-width: 0; display: flex; flex-direction: column; gap: 20px">
+<p style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 600; font-size: 13px; letter-spacing: 2.5px; color: #2A678C">EL RESULTADO</p>
+<h2 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 700; font-size: clamp(30px, 3.4vw, 42px); line-height: 1.18; color: #0F2D51">Todo tu negocio en un solo lugar</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.65; color: #5A6475">Cada proyecto desemboca en un Centro de Control hecho a la medida de tu operación. Dejas de pedir reportes y empiezas a ver lo que pasa.</p>
+<div style="display: flex; flex-direction: column; gap: 12px; margin-top: 8px">
+<div class="step" style="display: flex; align-items: center; gap: 16px; padding: 14px; border: 1px solid #DCDFE5; border-radius: 12px; background: #FDFDFD">
+<div aria-hidden="true" style="position: relative; width: 84px; height: 60px; flex: none; border-radius: 8px; background: #F4F6F8; display: flex; align-items: center; justify-content: center">
+<svg width="64" height="34" viewBox="0 0 64 34" fill="none"><path class="draw" d="M2 28 L14 22 L24 25 L36 14 L46 17 L62 4" stroke="#2B7AA8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+<svg class="spin" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2A678C" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="position: absolute; right: 6px; top: 6px"><path d="M21 12a9 9 0 1 1-3-6.7L21 8"></path><path d="M21 3v5h-5"></path></svg>
+</div>
+<div style="display: flex; flex-direction: column; gap: 2px; min-width: 0">
+<span style="font-family: Montserrat, sans-serif; font-weight: 600; font-size: 16px; color: #0F2D51">Indicadores que se actualizan solos</span>
+<span style="font-size: 14px; color: #5A6475">Sin pedirle el reporte a nadie.</span>
+</div>
+</div>
+<div class="step" style="display: flex; align-items: center; gap: 16px; padding: 14px; border: 1px solid #DCDFE5; border-radius: 12px; background: #FDFDFD">
+<div aria-hidden="true" style="width: 84px; height: 60px; flex: none; border-radius: 8px; background: #F4F6F8; display: flex; align-items: center; justify-content: center; gap: 8px">
+<span style="display: flex; flex-direction: column; align-items: center; gap: 4px"><span class="role" style="width: 16px; height: 16px; border-radius: 50%"></span><span class="role" style="width: 18px; height: 12px; border-radius: 3px"></span></span>
+<span style="display: flex; flex-direction: column; align-items: center; gap: 4px"><span class="role" style="width: 16px; height: 16px; border-radius: 50%; animation-delay: 1.5s"></span><span class="role" style="width: 18px; height: 12px; border-radius: 3px; animation-delay: 1.5s"></span></span>
+<span style="display: flex; flex-direction: column; align-items: center; gap: 4px"><span class="role" style="width: 16px; height: 16px; border-radius: 50%; animation-delay: 3s"></span><span class="role" style="width: 18px; height: 12px; border-radius: 3px; animation-delay: 3s"></span></span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 2px; min-width: 0">
+<span style="font-family: Montserrat, sans-serif; font-weight: 600; font-size: 16px; color: #0F2D51">Acceso por rol</span>
+<span style="font-size: 14px; color: #5A6475">Cada quien ve lo que necesita.</span>
+</div>
+</div>
+<div class="step" style="display: flex; align-items: center; gap: 16px; padding: 14px; border: 1px solid #DCDFE5; border-radius: 12px; background: #FDFDFD">
+<div aria-hidden="true" style="width: 84px; height: 60px; flex: none; border-radius: 8px; background: #F4F6F8; display: flex; align-items: center; justify-content: center">
+<div class="breath" style="position: relative; width: 36px; height: 36px">
+<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#2A678C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5l8 3v6c0 5-3.4 8.6-8 10-4.6-1.4-8-5-8-10v-6z"></path></svg>
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2B7AA8" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="position: absolute; left: 11px; top: 10px"><rect x="5" y="11" width="14" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg>
+</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 2px; min-width: 0">
+<span style="font-family: Montserrat, sans-serif; font-weight: 600; font-size: 16px; color: #0F2D51">Tus datos son tuyos, siempre</span>
+<span style="font-size: 14px; color: #5A6475">Seguros y bajo tu control.</span>
+</div>
+</div>
+</div>
+</div>
+
+<div role="img" aria-label="Ejemplo de un Centro de Control con varias páginas, indicadores, gráfica y tabla" style="flex: 1.4 1 560px; min-width: 0; border: 1px solid #DCDFE5; border-radius: 14px; overflow: hidden; background: #FDFDFD">
+<div style="display: flex; align-items: center; gap: 8px; padding: 12px 16px; border-bottom: 1px solid #E6E8EC; background: #F6F7F8">
+<span style="width: 10px; height: 10px; border-radius: 50%; background: #DCDFE5"></span>
+<span style="width: 10px; height: 10px; border-radius: 50%; background: #DCDFE5"></span>
+<span style="width: 10px; height: 10px; border-radius: 50%; background: #DCDFE5"></span>
+<span style="margin-left: 12px; padding: 4px 12px; border-radius: 6px; background: #EFEFEF; font-size: 12px; color: #5A6475">tuempresa.metriclab.tech</span>
+</div>
+<div style="display: flex; min-height: 400px">
+<div class="mockside" style="width: 148px; flex: none; background: #0F2D51; display: flex; flex-direction: column; gap: 4px; padding: 16px 10px; box-sizing: border-box">
+<div style="display: flex; align-items: center; gap: 8px; padding: 0 6px 14px">
+<img src="/assets/metriclab-m-light.png" alt="" style="width: 22px; height: 23px; object-fit: contain">
+<span class="sidelabel" style="font-family: Montserrat, sans-serif; font-weight: 700; font-size: 11px; letter-spacing: .5px; color: #FDFDFD">CONTROL</span>
+</div>
+<div style="display: flex; align-items: center; gap: 8px; padding: 8px; border-radius: 6px; background: #2B7AA8; color: #FFFFFF; font-size: 12px; font-weight: 500"><svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex: none"><rect x="3" y="3" width="7" height="7" rx="1"></rect><rect x="14" y="3" width="7" height="7" rx="1"></rect><rect x="3" y="14" width="7" height="7" rx="1"></rect><rect x="14" y="14" width="7" height="7" rx="1"></rect></svg><span class="sidelabel">Resumen general</span></div>
+<div style="display: flex; align-items: center; gap: 8px; padding: 8px; border-radius: 6px; color: #C3CAD5; font-size: 12px"><svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex: none"><path d="M12 2v20M17 6H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg><span class="sidelabel">Finanzas</span></div>
+<div style="display: flex; align-items: center; gap: 8px; padding: 8px; border-radius: 6px; color: #C3CAD5; font-size: 12px"><svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex: none"><path d="M3 3v18h18"></path><path d="M7 15l4-4 3 3 5-6"></path></svg><span class="sidelabel">Ventas</span></div>
+<div style="display: flex; align-items: center; gap: 8px; padding: 8px; border-radius: 6px; color: #C3CAD5; font-size: 12px"><svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex: none"><circle cx="12" cy="12" r="3"></circle><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"></path></svg><span class="sidelabel">Operación</span></div>
+<div style="display: flex; align-items: center; gap: 8px; padding: 8px; border-radius: 6px; color: #C3CAD5; font-size: 12px"><svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex: none"><path d="M1 6h13v10H1zM14 10h4l3 3v3h-7"></path><circle cx="5" cy="18" r="2"></circle><circle cx="17" cy="18" r="2"></circle></svg><span class="sidelabel">Logística</span></div>
+<div style="display: flex; align-items: center; gap: 8px; padding: 8px; border-radius: 6px; color: #C3CAD5; font-size: 12px"><svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex: none"><circle cx="9" cy="8" r="3.5"></circle><path d="M2.5 20a6.5 6.5 0 0 1 13 0M17 4.5a3.5 3.5 0 0 1 0 7M22 20a6.5 6.5 0 0 0-4-6"></path></svg><span class="sidelabel">Personal</span></div>
+</div>
+<div style="flex: 1; min-width: 0; padding: 20px; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap">
+<span style="font-family: Montserrat, sans-serif; font-weight: 700; font-size: 16px; color: #0F2D51">Resumen general</span>
+<span style="font-size: 12px; color: #5A6475">Actualizado hace 5 min</span>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px">
+<div style="padding: 12px; border: 1px solid #E6E8EC; border-radius: 8px; display: flex; flex-direction: column; gap: 4px"><span style="font-size: 11px; color: #5A6475">Ventas del mes</span><span style="font-family: Montserrat, sans-serif; font-weight: 700; font-size: 18px; color: #0F2D51">$48.2K</span><span style="font-size: 11px; color: #2A678C; font-weight: 500">▲ 12% vs mes anterior</span></div>
+<div style="padding: 12px; border: 1px solid #E6E8EC; border-radius: 8px; display: flex; flex-direction: column; gap: 4px"><span style="font-size: 11px; color: #5A6475">Margen bruto</span><span style="font-family: Montserrat, sans-serif; font-weight: 700; font-size: 18px; color: #0F2D51">38%</span><span style="font-size: 11px; color: #5A6475">Meta 40%</span></div>
+<div style="padding: 12px; border: 1px solid #E6E8EC; border-radius: 8px; display: flex; flex-direction: column; gap: 4px"><span style="font-size: 11px; color: #5A6475">Horas extra</span><span style="font-family: Montserrat, sans-serif; font-weight: 700; font-size: 18px; color: #0F2D51">126 h</span><span style="font-size: 11px; color: #5A6475">Esta semana</span></div>
+<div style="padding: 12px; border: 1px solid #E6E8EC; border-radius: 8px; display: flex; flex-direction: column; gap: 4px"><span style="font-size: 11px; color: #5A6475">Pedidos pendientes</span><span style="font-family: Montserrat, sans-serif; font-weight: 700; font-size: 18px; color: #0F2D51">14</span><span style="font-size: 11px; color: #5A6475">3 urgentes</span></div>
+</div>
+<div style="padding: 14px; border: 1px solid #E6E8EC; border-radius: 8px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-size: 12px; font-weight: 500; color: #3B4556">Ventas vs. meta · últimos 12 meses</span>
+<svg aria-hidden="true" viewBox="0 0 400 100" preserveAspectRatio="none" style="width: 100%; height: 100px; display: block">
+<g stroke="#EFEFEF" stroke-width="1"><path d="M0 25h400M0 50h400M0 75h400"></path></g>
+<path d="M0 82 L36 76 L72 79 L109 62 L145 66 L182 50 L218 55 L254 38 L291 42 L327 28 L364 24 L400 16" fill="none" stroke="#2B7AA8" stroke-width="2.5" vector-effect="non-scaling-stroke"></path>
+<path d="M0 88 L36 85 L72 82 L109 78 L145 75 L182 70 L218 68 L254 62 L291 58 L327 54 L364 50 L400 46" fill="none" stroke="#A1A9B7" stroke-width="1.5" stroke-dasharray="4 4" vector-effect="non-scaling-stroke"></path>
+</svg>
+</div>
+<div style="display: flex; flex-direction: column; font-size: 12px; color: #3B4556">
+<div style="display: grid; grid-template-columns: 2fr 1fr 1fr; padding: 8px 0; border-bottom: 1px solid #E6E8EC; color: #5A6475; font-weight: 500"><span>Sucursal</span><span>Ventas</span><span>Meta</span></div>
+<div style="display: grid; grid-template-columns: 2fr 1fr 1fr; padding: 8px 0; border-bottom: 1px solid #F0F1F3"><span>Sucursal Centro</span><span>$18.8K</span><span style="color: #2A678C; font-weight: 500">104%</span></div>
+<div style="display: grid; grid-template-columns: 2fr 1fr 1fr; padding: 8px 0; border-bottom: 1px solid #F0F1F3"><span>Sucursal Norte</span><span>$14.6K</span><span>91%</span></div>
+<div style="display: grid; grid-template-columns: 2fr 1fr 1fr; padding: 8px 0"><span>Tienda en línea</span><span>$14.8K</span><span>97%</span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="como-trabajamos" style="padding: 112px 0; background: #0F2D51; color: #FDFDFD">
+<div class="wrap" style="display: flex; flex-direction: column; gap: 56px">
+<div style="display: flex; flex-direction: column; gap: 18px; max-width: 760px">
+<p style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 600; font-size: 13px; letter-spacing: 2.5px; color: #6FB3E0">CÓMO TRABAJAMOS</p>
+<h2 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 700; font-size: clamp(30px, 3.4vw, 42px); line-height: 1.18; color: #FDFDFD">Empezamos sin cambiar tu forma de trabajar</h2>
+<p style="margin: 0; font-size: 19px; line-height: 1.65; color: #C3CAD5"><mark class="dark" style="font-weight: 500">Digitalizar tu empresa no tiene que ser un salto al vacío.</mark> Arrancamos con lo que ya usas y crecemos contigo por fases.</p>
+</div>
+<ol style="margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px">
+<li style="padding: 32px; border: 1px solid #2A678C; border-radius: 12px; display: flex; flex-direction: column; gap: 14px">
+<span style="font-family: Montserrat, sans-serif; font-weight: 700; font-size: 44px; line-height: 1; color: #6FB3E0">01</span>
+<h3 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 600; font-size: 21px; color: #FDFDFD">Diagnóstico gratuito</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #C3CAD5">Entendemos tu operación y dónde vive tu información hoy. Sin costo y sin compromiso.</p>
+<a class="btn" href="/contacto/" style="align-self: flex-start; display: inline-flex; align-items: center; min-height: 44px; padding: 0 18px; margin-top: auto; border-radius: 8px; background: #2B7AA8; color: #FFFFFF; text-decoration: none; font-family: Montserrat, sans-serif; font-weight: 600; font-size: 14px; box-sizing: border-box">Agéndalo aquí →</a>
+</li>
+<li style="padding: 32px; border: 1px solid #2A678C; border-radius: 12px; display: flex; flex-direction: column; gap: 14px">
+<span style="font-family: Montserrat, sans-serif; font-weight: 700; font-size: 44px; line-height: 1; color: #6FB3E0">02</span>
+<h3 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 600; font-size: 21px; color: #FDFDFD">Primera fase</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #C3CAD5">Un entregable concreto, con alcance y precio claros desde el inicio. Tu equipo sigue con sus herramientas de siempre y nosotros conectamos todo por detrás.</p>
+</li>
+<li style="padding: 32px; border: 1px solid #2A678C; border-radius: 12px; display: flex; flex-direction: column; gap: 14px">
+<span style="font-family: Montserrat, sans-serif; font-weight: 700; font-size: 44px; line-height: 1; color: #6FB3E0">03</span>
+<h3 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 600; font-size: 21px; color: #FDFDFD">Hoja de ruta</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #C3CAD5">Diseñamos contigo el camino para seguir digitalizando tu empresa, paso a paso y al ritmo de tu negocio.</p>
+</li>
+</ol>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 32px; padding-top: 48px; border-top: 1px solid rgba(161,169,183,0.25)">
+<div style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 14px">
+<div style="width: 76px; height: 76px; border-radius: 50%; border: 1px solid #2A678C; background: rgba(111,179,224,0.08); display: flex; align-items: center; justify-content: center">
+<svg aria-hidden="true" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#6FB3E0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"></circle><path d="M2.5 20a6.5 6.5 0 0 1 13 0"></path><path d="M16 11.5l2 2 4-4"></path></svg>
+</div>
+<h3 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 600; font-size: 18px; color: #FDFDFD">Sin curva de aprendizaje</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.55; color: #C3CAD5; max-width: 280px">Tu equipo sigue usando las herramientas que ya conoce.</p>
+</div>
+<div style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 14px">
+<div style="width: 76px; height: 76px; border-radius: 50%; border: 1px solid #2A678C; background: rgba(111,179,224,0.08); display: flex; align-items: center; justify-content: center">
+<svg aria-hidden="true" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#6FB3E0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5"></path><path d="M9 14.5l2 2 4-4"></path></svg>
+</div>
+<h3 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 600; font-size: 18px; color: #FDFDFD">Alcance y precio claros</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.55; color: #C3CAD5; max-width: 280px">Sabes qué recibes y cuánto cuesta antes de empezar.</p>
+</div>
+<div style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 14px">
+<div style="width: 76px; height: 76px; border-radius: 50%; border: 1px solid #2A678C; background: rgba(111,179,224,0.08); display: flex; align-items: center; justify-content: center">
+<svg aria-hidden="true" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#6FB3E0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h5v-5h5v-5h5V5h3"></path><path d="M3 20h18"></path></svg>
+</div>
+<h3 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 600; font-size: 18px; color: #FDFDFD">Crecemos por fases</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.55; color: #C3CAD5; max-width: 280px">Cada fase se apoya en la anterior, al ritmo de tu negocio.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section style="padding: 112px 0; background: #FDFDFD">
+<div class="wrap" style="display: flex; flex-wrap: wrap; gap: 64px; align-items: flex-start">
+<div style="flex: 1 1 380px; min-width: 0; display: flex; flex-direction: column; gap: 18px">
+<p style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 600; font-size: 13px; letter-spacing: 2.5px; color: #2A678C">PARA QUIÉN ES</p>
+<h2 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 700; font-size: clamp(30px, 3.4vw, 42px); line-height: 1.18; color: #0F2D51">Para empresas que crecieron más rápido que sus hojas de cálculo</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.65; color: #5A6475">Trabajamos con negocios establecidos, con equipos, varias áreas o sucursales, que generan información todos los días pero no logran verla completa.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 8px">
+<span style="padding: 8px 16px; background: #EFEFEF; border-radius: 999px; font-size: 14px; font-weight: 500; color: #0F2D51">Retail y cadenas de tiendas</span>
+<span style="padding: 8px 16px; background: #EFEFEF; border-radius: 999px; font-size: 14px; font-weight: 500; color: #0F2D51">Salud y laboratorios</span>
+<span style="padding: 8px 16px; background: #EFEFEF; border-radius: 999px; font-size: 14px; font-weight: 500; color: #0F2D51">Restaurantes y cafés</span>
+<span style="padding: 8px 16px; background: #EFEFEF; border-radius: 999px; font-size: 14px; font-weight: 500; color: #0F2D51">Construcción</span>
+<span style="padding: 8px 16px; background: #EFEFEF; border-radius: 999px; font-size: 14px; font-weight: 500; color: #0F2D51">Servicios profesionales</span>
+</div>
+</div>
+<ul class="who" style="flex: 1.2 1 480px; min-width: 0; margin: 0; padding: 0; list-style: none">
+<li class="step" style="padding: 20px; border: 1px solid #DCDFE5; border-radius: 12px; background: #FDFDFD; display: flex; flex-direction: column; gap: 14px">
+<div aria-hidden="true" style="height: 76px; border-radius: 8px; background: #F4F6F8; display: flex; align-items: center; justify-content: center">
+<svg width="150" height="50" viewBox="0 0 150 50" fill="none">
+<path class="flow" d="M30 30 H120" stroke="#6FB3E0" stroke-width="1.5"></path>
+<g stroke="#2A678C" stroke-width="1.8" stroke-linejoin="round" fill="#FDFDFD">
+<path d="M14 22 L30 12 L46 22 V40 H14 Z"></path>
+<path d="M59 22 L75 12 L91 22 V40 H59 Z"></path>
+<path d="M104 22 L120 12 L136 22 V40 H104 Z"></path>
+</g>
+<g fill="#2B7AA8"><rect class="breath" x="26" y="30" width="8" height="10"></rect><rect class="breath" x="71" y="30" width="8" height="10" style="animation-delay: 1s"></rect><rect class="breath" x="116" y="30" width="8" height="10" style="animation-delay: 2s"></rect></g>
+</svg>
+</div>
+<span style="font-size: 16px; line-height: 1.5; color: #0F2D51; font-weight: 500">Tienes un equipo y varias áreas, sucursales o puntos de venta</span>
+</li>
+<li class="step" style="padding: 20px; border: 1px solid #DCDFE5; border-radius: 12px; background: #FDFDFD; display: flex; flex-direction: column; gap: 14px">
+<div aria-hidden="true" style="height: 76px; border-radius: 8px; background: #F4F6F8; display: flex; align-items: center; justify-content: center">
+<div style="position: relative; width: 94px; height: 46px; display: grid; grid-template-columns: repeat(4, 22px); grid-template-rows: repeat(3, 14px); gap: 2px">
+<span style="background: #1F7A4D; border-radius: 2px"></span><span style="background: #1F7A4D; border-radius: 2px"></span><span style="background: #1F7A4D; border-radius: 2px"></span><span style="background: #1F7A4D; border-radius: 2px"></span>
+<span style="background: #DCDFE5; border-radius: 2px"></span><span style="background: #DCDFE5; border-radius: 2px"></span><span style="background: #DCDFE5; border-radius: 2px"></span><span style="background: #DCDFE5; border-radius: 2px"></span>
+<span style="background: #DCDFE5; border-radius: 2px"></span><span style="background: #DCDFE5; border-radius: 2px"></span><span style="background: #DCDFE5; border-radius: 2px"></span><span style="background: #DCDFE5; border-radius: 2px"></span>
+<span class="scan" style="position: absolute; left: -1px; top: 15px; width: 22px; height: 14px; border: 2px solid #2B7AA8; border-radius: 3px"></span>
+</div>
+</div>
+<span style="font-size: 16px; line-height: 1.5; color: #0F2D51; font-weight: 500">Tu operación corre en Excel, Google Sheets o algún sistema</span>
+</li>
+<li class="step" style="padding: 20px; border: 1px solid #DCDFE5; border-radius: 12px; background: #FDFDFD; display: flex; flex-direction: column; gap: 14px">
+<div aria-hidden="true" style="height: 76px; border-radius: 8px; background: #F4F6F8; display: flex; align-items: center; justify-content: center; gap: 14px">
+<div style="position: relative; width: 44px; height: 44px; border-radius: 50%; border: 2px solid #2A678C; box-sizing: border-box; background: #FDFDFD">
+<span class="spinslow" style="position: absolute; left: 19px; top: 6px; width: 2px; height: 14px; background: #2B7AA8; border-radius: 1px"></span>
+<span style="position: absolute; left: 17px; top: 17px; width: 6px; height: 6px; border-radius: 50%; background: #0F2D51"></span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 4px">
+<span style="font-family: Montserrat, sans-serif; font-weight: 700; font-size: 13px; color: #9A4A30">Reporte: 3 días</span>
+<span style="font-size: 11px; color: #5A6475">Esperando a alguien...</span>
+</div>
+</div>
+<span style="font-size: 16px; line-height: 1.5; color: #0F2D51; font-weight: 500">Un reporte depende de alguien y toma días en llegar</span>
+</li>
+<li class="step" style="padding: 20px; border: 1px solid #DCDFE5; border-radius: 12px; background: #FDFDFD; display: flex; flex-direction: column; gap: 14px">
+<div aria-hidden="true" style="height: 76px; border-radius: 8px; background: #F4F6F8; display: flex; align-items: flex-end; justify-content: center; gap: 6px; padding-bottom: 14px; box-sizing: border-box">
+<span class="g" style="width: 16px; height: 14px; background: #A8CCDF; border-radius: 2px 2px 0 0"></span>
+<span class="g" style="width: 16px; height: 24px; background: #6FB3E0; border-radius: 2px 2px 0 0; animation-delay: .2s"></span>
+<span class="g" style="width: 16px; height: 34px; background: #2B7AA8; border-radius: 2px 2px 0 0; animation-delay: .4s"></span>
+<span class="g" style="width: 16px; height: 46px; background: #0F2D51; border-radius: 2px 2px 0 0; animation-delay: .6s"></span>
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2B7AA8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: 30px"><path d="M7 17L17 7M9 7h8v8"></path></svg>
+</div>
+<span style="font-size: 16px; line-height: 1.5; color: #0F2D51; font-weight: 500">Quieres profesionalizar tu operación sin detenerla</span>
+</li>
+</ul>
+</div>
+</section>
+
+<section id="nosotros" style="padding: 112px 0; background: #EFEFEF">
+<div class="wrap" style="display: flex; flex-direction: column; gap: 56px">
+<div style="display: flex; flex-direction: column; gap: 18px; max-width: 720px">
+<p style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 600; font-size: 13px; letter-spacing: 2.5px; color: #2A678C">QUIÉNES SOMOS</p>
+<h2 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 700; font-size: clamp(30px, 3.4vw, 42px); line-height: 1.18; color: #0F2D51">Consultores, no solo técnicos</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.65; color: #5A6475">Somos una firma familiar, padre e hijo. Dos generaciones que combinan experiencia empresarial real con tecnología moderna.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px">
+<article style="padding: 32px; background: #FDFDFD; border: 1px solid #DCDFE5; border-radius: 12px; display: flex; gap: 24px; align-items: flex-start; flex-wrap: wrap">
+<div class="monogram" aria-hidden="true">AS<small>JR</small></div>
+<div style="flex: 1 1 200px; min-width: 0; display: flex; flex-direction: column; gap: 10px">
+<h3 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 600; font-size: 21px; color: #0F2D51">Álvaro Sacasa Jr.</h3>
+<p style="margin: 0; font-size: 16px; color: #2A678C; font-weight: 500">Automatización, datos e IA aplicada</p>
+<p style="margin: 0; font-size: 14px; color: #5A6475">AI for Digital Business · INCAE</p>
+<a href="mailto:alvaro.jr@metriclab.tech" style="display: inline-flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 500; color: #2A678C; text-decoration: none; overflow-wrap: anywhere"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex: none"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="M3.5 6l8.5 7 8.5-7"></path></svg>alvaro.jr@metriclab.tech</a>
+<div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px">
+<span style="padding: 6px 12px; border: 1px solid #DCDFE5; border-radius: 6px; font-size: 13px; color: #3B4556">Automatización</span>
+<span style="padding: 6px 12px; border: 1px solid #DCDFE5; border-radius: 6px; font-size: 13px; color: #3B4556">Bases de datos</span>
+<span style="padding: 6px 12px; border: 1px solid #DCDFE5; border-radius: 6px; font-size: 13px; color: #3B4556">IA aplicada</span>
+</div>
+</div>
+</article>
+<article style="padding: 32px; background: #FDFDFD; border: 1px solid #DCDFE5; border-radius: 12px; display: flex; gap: 24px; align-items: flex-start; flex-wrap: wrap">
+<div class="monogram" aria-hidden="true" style="background:#2A678C">AS<small style="color:#FDFDFD">SR</small></div>
+<div style="flex: 1 1 200px; min-width: 0; display: flex; flex-direction: column; gap: 10px">
+<h3 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 600; font-size: 21px; color: #0F2D51">Álvaro Sacasa Sr.</h3>
+<p style="margin: 0; font-size: 16px; color: #2A678C; font-weight: 500">Analítica de negocio y BI</p>
+<p style="margin: 0; font-size: 14px; color: #5A6475">Analítica empresarial &amp; BI</p>
+<a href="mailto:alvaro.sr@metriclab.tech" style="display: inline-flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 500; color: #2A678C; text-decoration: none; overflow-wrap: anywhere"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex: none"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="M3.5 6l8.5 7 8.5-7"></path></svg>alvaro.sr@metriclab.tech</a>
+<div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px">
+<span style="padding: 6px 12px; border: 1px solid #DCDFE5; border-radius: 6px; font-size: 13px; color: #3B4556">Dashboards</span>
+<span style="padding: 6px 12px; border: 1px solid #DCDFE5; border-radius: 6px; font-size: 13px; color: #3B4556">Datos</span>
+<span style="padding: 6px 12px; border: 1px solid #DCDFE5; border-radius: 6px; font-size: 13px; color: #3B4556">Estrategia</span>
+</div>
+</div>
+</article>
+</div>
+</div>
+</section>
+
+<section style="position: relative; overflow: hidden; padding: 120px 0; background: #0F2D51; color: #FDFDFD">
+<svg class="drift" aria-hidden="true" viewBox="0 0 1440 420" preserveAspectRatio="xMidYMid slice" style="position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none">
+<g stroke="#6FB3E0" stroke-opacity="0.12" fill="none"><path d="M80 320 L260 230 L420 300"></path><path d="M1040 90 L1200 170 L1380 110"></path></g>
+<g fill="#6FB3E0"><circle class="tw" cx="80" cy="320" r="2.5"></circle><circle class="tw2" cx="260" cy="230" r="3"></circle><circle class="tw3" cx="420" cy="300" r="2.5"></circle><circle class="tw" cx="1040" cy="90" r="2.5"></circle><circle class="tw2" cx="1200" cy="170" r="3"></circle><circle class="tw3" cx="1380" cy="110" r="2"></circle></g>
+</svg>
+<div class="wrap" style="position: relative; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 22px">
+<h2 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 700; font-size: clamp(30px, 3.6vw, 46px); line-height: 1.15; color: #FDFDFD; max-width: 760px">Tus datos ya tienen las respuestas</h2>
+<p style="margin: 0; font-size: 19px; line-height: 1.6; color: #C3CAD5; max-width: 620px">Agenda un diagnóstico gratuito y te mostramos lo que <mark class="dark" style="font-weight: 500">hoy no estás viendo de tu negocio.</mark></p>
+<a class="btn" href="/contacto/" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 28px; margin-top: 10px; border-radius: 8px; background: #2B7AA8; color: #FFFFFF; text-decoration: none; font-family: Montserrat, sans-serif; font-weight: 600; font-size: 16px; box-sizing: border-box">Agenda un diagnóstico gratuito</a>
+</div>
+</section>
+
+</main>
+<footer style="background: #0F2D51; color: #A1A9B7; border-top: 1px solid rgba(161,169,183,0.2)">
+<div class="wrap" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 40px; padding-top: 56px; padding-bottom: 40px">
+<div style="display: flex; flex-direction: column; gap: 12px">
+<div style="display: flex; align-items: center; gap: 12px">
+<img src="/assets/metriclab-m-light.png" alt="" style="width: 32px; height: 33px; object-fit: contain">
+<span style="font-family: Montserrat, sans-serif; font-weight: 700; font-size: 18px; letter-spacing: 1px; color: #FDFDFD">METRIC<span style="color: #6FB3E0; font-weight: 400">LAB</span></span>
+</div>
+<span style="font-size: 14px">De Datos a Decisiones</span>
+</div>
+<nav aria-label="Pie de página" style="display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start">
+<a class="navlink" href="#que-hacemos">Qué hacemos</a>
+<a class="navlink" href="#como-trabajamos">Cómo trabajamos</a>
+<a class="navlink" href="#nosotros">Nosotros</a>
+<a class="navlink" href="/contacto/">Contacto</a>
+</nav>
+<div style="display: flex; flex-direction: column; gap: 10px; font-size: 15px">
+<a href="https://wa.me/50494694270" style="color: #D5DAE2; text-decoration: none">+504 9469-4270</a>
+<a href="mailto:alvaro.jr@metriclab.tech" style="color: #D5DAE2; text-decoration: none">alvaro.jr@metriclab.tech</a>
+</div>
+</div>
+<div class="wrap" style="padding-top: 20px; padding-bottom: 28px; border-top: 1px solid rgba(161,169,183,0.15); font-size: 13px">© 2026 MetricLab</div>
+</footer>
+
+</div>
+</body>
+</html>
