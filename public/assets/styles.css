@@ -122,3 +122,17 @@ mark.dark{background:rgba(111,179,224,.24);color:#FDFDFD}
 .monogram{width:96px;height:96px;flex:none;border-radius:50%;background:#0F2D51;color:#FDFDFD;display:flex;align-items:center;justify-content:center;gap:2px;font-family:Montserrat,sans-serif;font-weight:700;font-size:26px;letter-spacing:1px;border:3px solid #6FB3E0;box-sizing:border-box}
 .monogram small{font-size:12px;font-weight:600;align-self:flex-end;margin-bottom:30px;color:#6FB3E0}
 .skip{position:absolute;left:-9999px;top:0}.skip:focus{left:16px;top:16px;z-index:10;background:#FDFDFD;color:#0F2D51;padding:10px 14px;border-radius:6px}
+
+.track-bad{border-top:1.5px dashed #D9B8AC}
+.track-ok{border-top:1.5px solid #6FB3E0}
+@keyframes ml-runv{0%{top:4%;opacity:0}6%{opacity:1}94%{opacity:1}100%{top:92%;opacity:0}}
+@keyframes ml-runfailv{0%{top:4%;opacity:0}6%{opacity:1}55%{top:58%;opacity:1}70%{top:64%;opacity:0}100%{top:64%;opacity:0}}
+@media (max-width:860px){
+.flowrow .track{display:block;left:30px;right:auto;top:20px;bottom:20px;height:auto;border-top:none}
+.flowrow .track-bad{border-left:1.5px dashed #D9B8AC}
+.flowrow .track-ok{border-left:1.5px solid #6FB3E0}
+.flowrow .trav{display:block;left:26.5px}
+.flowrow .trav-ok{animation:ml-runv 4.2s linear infinite}
+.flowrow .trav-bad{animation:ml-runfailv 4.2s linear infinite}
+}
+@media (prefers-reduced-motion:reduce){.flowrow .trav{animation:none !important;display:none}}
